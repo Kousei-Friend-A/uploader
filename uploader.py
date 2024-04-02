@@ -87,7 +87,7 @@ async def start_uploader(client: Client, message: Message, url: str, proc: Messa
 
     t3 = time.time()
     await client.send_document(
-        chat_id="animeuploadteest1",
+        chat_id="-1002094965664",
         document="./files/" + filename,
         thumb="thumb.jpeg",
         caption=caption,
