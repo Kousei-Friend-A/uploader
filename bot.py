@@ -97,7 +97,7 @@ async def postAnime(client: Client, message: Message):
 async def main():
     print("Starting...")
     await app.start()
-    await app.send_message(1813305809, "Bot started!")
+    await app.send_message(-1002094965664, "Bot started!")
     print("Bot started!")
     await idle()
     await app.stop()
